@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		385112A3228CFECC0036B8CF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 385112A2228CFECC0036B8CF /* main.cpp */; };
+		385112AC228D09540036B8CF /* clockTypeDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 385112AB228D09540036B8CF /* clockTypeDef.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3851129F228CFECC0036B8CF /* clockType */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = clockType; sourceTree = BUILT_PRODUCTS_DIR; };
 		385112A2228CFECC0036B8CF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		385112A9228D02610036B8CF /* clockType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = clockType.h; sourceTree = "<group>"; };
+		385112AB228D09540036B8CF /* clockTypeDef.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = clockTypeDef.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				385112A2228CFECC0036B8CF /* main.cpp */,
+				385112A9228D02610036B8CF /* clockType.h */,
+				385112AB228D09540036B8CF /* clockTypeDef.cpp */,
 			);
 			path = clockType;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				385112AC228D09540036B8CF /* clockTypeDef.cpp in Sources */,
 				385112A3228CFECC0036B8CF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
